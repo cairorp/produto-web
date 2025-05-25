@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import ListarProdutos from './pages/produtos/listarProdutos';
 import ManterProdutos from './pages/produtos/manterProdutos';
 import { BreadCrumb } from 'primereact/breadcrumb';
