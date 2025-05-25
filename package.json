@@ -16,12 +16,13 @@
     "react-router-dom": "^7.6.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
-  },
+  }, 
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start local",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build:test": "REACT_APP_ENV=test react-scripts build",
+    "build:hml": "REACT_APP_ENV=hml react-scripts build",
+    "build:prod": "REACT_APP_ENV=production react-scripts build"
   },
   "eslintConfig": {
     "extends": [
