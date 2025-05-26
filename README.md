@@ -29,7 +29,7 @@ npm start
 
 # produção
 ```
-npm run build
+cp .env.production .env && npm run build
 ```
 
 # homologação
